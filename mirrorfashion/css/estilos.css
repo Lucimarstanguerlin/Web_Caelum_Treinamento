@@ -1,0 +1,88 @@
+    /* INICIO BODY */
+
+    body {
+        color: #000;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    /* INICIO CABECALHO */
+
+    header {
+        position: relative;
+        width: 940px
+    }
+
+    .menu-opcoes {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .menu-opcoes ul {
+        font-size: 15px;
+    }
+
+    .menu-opcoes ul li {
+        display: inline;
+        margin-left: 25px;
+    }
+
+    .menu-opcoes a {
+        color: #003366;
+    }
+
+    .sacola {
+
+        background: url(../img/sacola.png) no-repeat top right;
+        font-size: 14px;
+        padding-right: 35px;
+        padding-top: 8px;
+        text-align: right;
+        width: 140px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .containerCabecalho {
+        margin: 20px 200px;
+    }
+
+    /* INICIO MENU BUSCA */
+    
+    .busca, .menu-departamentos{
+    
+    text-transform: uppercase;
+    background-color: #dcdcdc;
+    font-weight: bold;
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+    }
+    .busca h2,.busca form,.menu-departamentos h2 {
+        margin: 10px;
+    }
+
+    .menu-departamentos li {
+        background-color: #fff;
+        margin-bottom: 1px;
+        padding: 5px 10px;
+    }
+
+    .menu-departamentos a {
+        color: #333333;
+        text-decoration: none;
+        }
+        .busca input {
+            vertical-align: middle;
+            }
+            
+            .busca input[type=search] {
+                width: 170px;
+                }
+                
+                .menu-departamentos {
+                    clear: left;
+                    }
+                    
+                    
